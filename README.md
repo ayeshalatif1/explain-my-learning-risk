@@ -242,7 +242,7 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 **Ethical considerations**
 
 - Predictions are probabilities meant to support human conversations, not automatic decisions about students.
-- Sensitive attributes (sex, age, address, parental information) and personal attributes (alcohol use, relationship status) are excluded from the model.
+- Sensitive attributes (age, gender, address, parental information) and personal attributes (alcohol use, relationship status) are excluded from the model.
 - A risk label can stigmatize a student if misused; a teacher or counselor must make any decision, and the interface repeats this.
 - The model should be re-validated on local data before any real-world use.
 
