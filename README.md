@@ -217,11 +217,6 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 
 **Global explanation (SHAP):**
 
-![Global SHAP importance](global_shap.png)
-
-**App screenshots:** *(add images to a `screenshots/` folder and update the paths)*
-![Main Page]() ![What-If]()
-
 | Prediction | Why? |
 |---|---|
 | ![Prediction tab](1.PNG) |
@@ -229,6 +224,9 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 | What-if |
 |---|---|
 | ![What-if tab](2.PNG) |
+
+![Global SHAP importance](global_shap.png)
+
 
 **Live demo:** [LIVE](https://explain-my-learning-risk.streamlit.app/)
 
