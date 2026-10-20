@@ -95,7 +95,7 @@ Streamlit app: Prediction | Why? | What-if
 **Requirements:** Python 3.11 or newer (the project was developed on Python 3.14) and Git.
 
 # 1. Clone the repository
-git clone [https://github.com/YOUR-USERNAME/explain-my-learning-risk.git](https://github.com/ayeshalatif1/explain-my-learning-risk)
+git clone [https://github.com/ayeshalatif1/explain-my-learning-risk](https://github.com/ayeshalatif1/explain-my-learning-risk)
 cd explain-my-learning-risk
 
 # 2. Create and activate a virtual environment
