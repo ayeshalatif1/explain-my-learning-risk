@@ -2,8 +2,8 @@
 
 An explainable early-warning prototype that estimates whether a student may be at risk of poor academic performance and explains the estimate in simple educational language.
 
-**Live demo:** [PASTE-YOUR-STREAMLIT-URL-HERE](https://your-app-name.streamlit.app)
-**Repository:** [PASTE-YOUR-GITHUB-URL-HERE](https://github.com/YOUR-USERNAME/explain-my-learning-risk)
+**Live demo:** [Explain My Learning Risk Live Demo](https://explain-my-learning-risk.streamlit.app/)
+**Repository:** [Code](https://github.com/ayeshalatif1/explain-my-learning-risk)
 
 
 ## Team name
@@ -240,7 +240,7 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 |---|---|
 | ![What-if tab](screenshots/whatif.png) | ![About tab](screenshots/about.png) |
 
-**Live demo:** [PASTE-YOUR-STREAMLIT-URL-HERE](https://your-app-name.streamlit.app)
+**Live demo:** [LIVE](https://explain-my-learning-risk.streamlit.app/)
 
 ## Limitations
 
