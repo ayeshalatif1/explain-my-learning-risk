@@ -101,6 +101,7 @@ cd explain-my-learning-risk
 # 2. Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate            # Windows
+
 #source venv/bin/activate       # macOS / Linux
 
 # 3. Install dependencies
@@ -121,9 +122,11 @@ explain-my-learning-risk/
 │   └── student-mat.csv         # UCI Student Performance (mathematics)
 
 ├── notebooks/
+
 │   └── 01_explore.ipynb        # Exploration, training, evaluation, SHAP
 
 ├── models/
+
 │   └── risk_model.joblib       # Saved pipeline and app artifacts
 
 ├── global_shap.png             # Global SHAP chart
