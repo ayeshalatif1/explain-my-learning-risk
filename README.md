@@ -75,24 +75,19 @@ It is designed as an **early-warning** tool: earlier term grades (G1, G2) are de
 9. **Explainability.** SHAP for local and global explanations, plus logistic regression coefficients for direction of effect. A translation layer turns the output into plain educational sentences framed as "the model's estimate", never as a cause.
 10. **App.** The trained pipeline is saved with joblib and loaded by the Streamlit app.
 
-## Architecture / workflow
+## Workflow
 
 Student information (sidebar form)
-            |
-            v
+          
 Preprocessing pipeline (scaling + one-hot encoding)
-            |
-            v
-Logistic regression  --->  probability  --->  Risk band (Low / Medium / High)
-            |
-            v
+         
+Logistic regression:   probability,  Risk band (Low / Medium / High)
+         
 SHAP values (local and global)
-            |
-            v
+         
 Plain-language translation layer
-            |
-            v
-Streamlit app: Prediction | Why? | What-if | About the model
+         
+Streamlit app: Prediction | Why? | What-if
 
 
 ## Installation instructions
@@ -106,7 +101,7 @@ cd explain-my-learning-risk
 # 2. Create and activate a virtual environment
 python -m venv venv
 venv\Scripts\activate            # Windows
-# source venv/bin/activate       # macOS / Linux
+#source venv/bin/activate       # macOS / Linux
 
 # 3. Install dependencies
 pip install -r requirements.txt
@@ -116,15 +111,23 @@ The package versions in `requirements.txt` are pinned to the versions the model 
 **Project structure**
 
 explain-my-learning-risk/
+
 ├── app.py                      # Streamlit application
+
 ├── requirements.txt            # Pinned dependencies
+
 ├── data/
+
 │   └── student-mat.csv         # UCI Student Performance (mathematics)
+
 ├── notebooks/
 │   └── 01_explore.ipynb        # Exploration, training, evaluation, SHAP
+
 ├── models/
 │   └── risk_model.joblib       # Saved pipeline and app artifacts
+
 ├── global_shap.png             # Global SHAP chart
+
 └── README.md
 
 ## Usage instructions
