@@ -58,9 +58,6 @@ It is designed as an **early-warning** tool: earlier term grades (G1, G2) are de
 | Development | VS Code, Jupyter Notebook, Git and GitHub |
 | Deployment | Streamlit Community Cloud |
 
-## Screenshots
-![Main Page](1.PNG) ![What-If](2.PNG)
-
 ## Methodology
 
 1. **Data exploration.** Loaded the dataset and checked for missing values (none) and data types. Explored how the target relates to factors such as past failures and study time.
@@ -103,7 +100,7 @@ Streamlit app: Prediction | Why? | What-if | About the model
 **Requirements:** Python 3.11 or newer (the project was developed on Python 3.14) and Git.
 
 # 1. Clone the repository
-git clone https://github.com/YOUR-USERNAME/explain-my-learning-risk.git
+git clone [https://github.com/YOUR-USERNAME/explain-my-learning-risk.git](https://github.com/ayeshalatif1/explain-my-learning-risk)
 cd explain-my-learning-risk
 
 # 2. Create and activate a virtual environment
@@ -146,7 +143,6 @@ It opens at `http://localhost:8501`.
 2. **Prediction** tab: shows the estimated risk level, the model probability, and how common true risk was in that band in the test data.
 3. **Why?** tab: shows the factors that raised or lowered the estimate, in plain language and as a chart.
 4. **What-if** tab: change absences, going out with friends or study time to see how the estimate moves. These are model scenarios, not guarantees.
-5. **About the model** tab: data, method, performance, the global factor chart and limitations.
 
 **Reproduce the model**
 
@@ -231,14 +227,15 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 ![Global SHAP importance](global_shap.png)
 
 **App screenshots:** *(add images to a `screenshots/` folder and update the paths)*
+![Main Page]() ![What-If]()
 
 | Prediction | Why? |
 |---|---|
-| ![Prediction tab](screenshots/prediction.png) | ![Why tab](screenshots/why.png) |
+| ![Prediction tab](1.PNG) |
 
-| What-if | About the model |
+| What-if |
 |---|---|
-| ![What-if tab](screenshots/whatif.png) | ![About tab](screenshots/about.png) |
+| ![What-if tab](2.PNG) |
 
 **Live demo:** [LIVE](https://explain-my-learning-risk.streamlit.app/)
 
