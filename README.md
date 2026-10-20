@@ -207,21 +207,6 @@ Accuracy alone is misleading here, because predicting "nobody is at risk" would 
 
 The share of truly at-risk students rises from Low to Medium to High, so the labels carry information. The 0.4 and 0.7 cut-offs were chosen after viewing test-set results, and the bands are small, so these figures are indicative only.
 
-**What the model relies on (global SHAP, mean absolute value):**
-
-| Rank | Factor | Mean abs. SHAP |
-|---|---|---|
-| 1 | Past class failures | 0.43 |
-| 2 | Going out with friends | 0.25 |
-| 3 | Family educational support | 0.20 |
-| 4 | Extra school support | 0.17 |
-| 5 | Free time after school | 0.15 |
-| 6 | Family relationship quality | 0.13 |
-| 7 | Extracurricular activities | 0.11 |
-| 8 | School absences | 0.10 |
-
-**Direction of effect (logistic regression coefficients):** past failures, extra school support, family support and going out with friends push the estimate up; planning higher education, home internet access, free time and family relationship quality push it down. Study time has almost no effect in this model.
-
 **Key observations**
 
 - Past failures is the strongest factor, consistent with the raw data: the at-risk share rises from 25% (no failures, 312 students) to 52% (one failure, 50 students) and about 75-80% for two or more failures (only 33 students).
