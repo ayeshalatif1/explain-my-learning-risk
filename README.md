@@ -96,10 +96,12 @@ Streamlit app: Prediction | Why? | What-if
 
 # 1. Clone the repository
 git clone [https://github.com/ayeshalatif1/explain-my-learning-risk](https://github.com/ayeshalatif1/explain-my-learning-risk)
+
 cd explain-my-learning-risk
 
 # 2. Create and activate a virtual environment
 python -m venv venv
+
 venv\Scripts\activate            # Windows
 
 #source venv/bin/activate       # macOS / Linux
