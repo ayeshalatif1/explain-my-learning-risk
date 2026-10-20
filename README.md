@@ -215,15 +215,12 @@ The share of truly at-risk students rises from Low to Medium to High, so the lab
 
 ## Screenshots / demo
 
-**Global explanation (SHAP):**
 
 | Prediction | Why? |
 |---|---|
 | ![Prediction tab](1.PNG) |
 
-| What-if |
-|---|---|
-| ![What-if tab](2.PNG) |
+ ![What-if tab](2.PNG) 
 
 ![Global SHAP importance](global_shap.png)
 
